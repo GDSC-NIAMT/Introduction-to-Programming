@@ -118,7 +118,7 @@ print(friends[0]) #brings out the 0th indexing value from the list of friends
 friends.append('Ram')
 ```
 
-You reached this far. If you are intrested on learning more [Click Here](Introduction-to-Programming/comprehensive)
+You reached this far. If you are intrested on learning more [Click Here](comprehensive)
 
 ps. It might be bit hard to follow on just keep practicing youself on random stuff and you will get better.
 
