@@ -2,16 +2,16 @@
 
 ##### This page contains most of the examples taken out in the session. For more "comprehensive" notes go to the bottom of this page.
 
-A just born baby
+## A just born baby
 ```python
 print('crys')
 ```
-A baby after a couple of months
+## A baby after a couple of months
 ```python
 hear = input('What is he saying?')
 print(hear)
 ```
-The child in kindergarden
+## The child in kindergarden
 ```python
 words = "Apple" #strings
 numbers = 10 #integers
@@ -20,14 +20,14 @@ decimals = 3.45 #float
 
 print(type('10'))
 ```
-Boolean Data Types
+## Boolean Data Types
 ```python
 right = True
 wrong = False
 
 print(type(True))
 ```
-Forcing the child to change the datatype
+## Forcing the child to change the datatype
 ```python
 unknown = "10"
 print(int(unknown))
@@ -35,13 +35,12 @@ print(float(unknown))
 print(str(unknown))
 print(bool(unknown))
 ```
-```
 DIY
-
+```
 Make any 4 values of different datatypes (str,int,float,bool)
 and try to convert it into the other 3 datatypes
 ```
-The Child in primary school
+## The Child in primary school
 ```python
 # Kid starts getting home work
 
@@ -54,7 +53,10 @@ elif didHW == False:
 else:
   print("I did it mam but forgot my book at home.")
 ```
-Guest at home
+![image](https://user-images.githubusercontent.com/85298075/207657419-c706e34f-7d18-4759-ac7f-8712d7e9baec.png)
+![image](https://user-images.githubusercontent.com/85298075/207657494-20fd7f7c-c41e-4f30-ba7d-f8fbdfe858fb.png)
+
+## Guest at home
 ```python
 for number in range(10):
   print(number)
@@ -73,7 +75,8 @@ name = 'Abhishek'
 for letter in name:
   print(letter)
 ```
-Mathematics
+![image.png](https://pypod.github.io/assets/images/img-018.png)
+## Mathematics
 ```python
 num1 = 6
 num2 = 2
@@ -99,7 +102,7 @@ print("The quotient is", quotient)
 reminder = num1%num2
 print("The reminder is", reminder)
 ```
-Making friends
+## Making friends
 ```python
 friend1 = 'Uday'
 friend2 = 'Manish'
@@ -110,14 +113,18 @@ print(friend1, friend2, friend3)
 friends = ['Uday','Manish','Murali', 'Dinesh', 'Ramesh', 'Suresh', 'Mukesh', 'Rakesh']
 print(friends)
 
-for friend in friends:
-  print(friend)
+print(type(friends))
 
-print(len(friends))
+print(len(friends)) #gives out the number of entries in the list
 
 print(friends[0]) #brings out the 0th indexing value from the list of friends
+print(friends[1]) #brings out the 1st indexing value from the list of friends
+print(friends[1]) #brings out the 2nd indexing value from the list of friends
 
-friends.append('Ram')
+friends.append('Ram') #Adds Ram to the above list
+
+for i in range(len(friends)):
+  print(friends[i] #the application of above said 2 points
 ```
 
 You reached this far. If you are intrested on learning more [***Click Here***](comprehensive)
