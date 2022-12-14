@@ -22,7 +22,12 @@ print("Enter a number: ")
 
 ```input()``` is used to get input from the user
 ```python
-n=int(input()) 
+n=int(input()) # input always gets the data as class 'str'
+```
+
+**Note:** You can also type the string directly inside the ```input()``` like this
+```python
+n = int(input("Enter a number: "))
 ```
 
 ```n``` is variable and is used in mathematical operations
@@ -135,18 +140,14 @@ f = d*e #does not exist as sritng can not be multiplied
 g = d+e
 print(g) #prints 'NIAMTRanchi'. This is called concatenation of str
 
-h = [1,2,3]
-i = [3,4,5]
-j = h+i
-print(j) #prints '[1,2,3,3,4,5]'. Puts all elements from both variables in one
 
 k=10+13*2
 print(k) #prints '36'. It is due to "operator precedence" i.e. it follows BODMAS.
 
-l = 13
+l = 14
 m = 7
 o = l/m
-print(o) #o is float inspite l and m being int
+print(o) #o is float inspite l and m being int & exactly divisible
 ```
 # Operators and Expressions continued
 
