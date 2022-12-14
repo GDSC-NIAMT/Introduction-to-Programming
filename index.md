@@ -119,6 +119,7 @@ friends.append('Ram')
 ```
 
 You reached this far. If you are intrested on learning more [Click Here](/comprehensive)
+
 ps. It might be bit hard to follow on just keep practicing youself on random stuff and you will get better.
 
 few places to practice stuff
