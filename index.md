@@ -18,11 +18,26 @@ decimals = 3.45 #float
 
 print(type('10'))
 ```
+Boolean Data Types
 ```python
 right = True
 wrong = False
 
 print(type(True))
+```
+Forcing the child to change the datatype
+```python
+unknown = "10"
+print(int(unknown))
+print(float(unknown))
+print(str(unknown))
+print(bool(unknown))
+```
+```
+DIY
+
+Make any 4 values of different datatypes (str,int,float,bool)
+and try to convert it into the other 3 datatypes
 ```
 The Child in primary school
 ```python
@@ -98,5 +113,13 @@ for friend in friends:
 
 print(len(friends))
 
-print(friends[0])
+print(friends[0]) #brings out the 0th indexing value from the list of friends
+
+friends.append('Ram')
 ```
+
+You reached this far. If you are intrested on learning more [Click Here](/comprehensive)
+ps. It might be bit hard to follow on just keep practicing youself on random stuff and you will get better.
+
+few places to practice stuff
+[HackerRank](https://www.hackerrank.com/access-account/) [CodeChef](https://www.codechef.com/login)
