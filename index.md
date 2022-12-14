@@ -1,5 +1,7 @@
 # Simulating a human using Basic Python
 
+##### This page contains most of the examples taken out in the session. For more "comprehensive" notes go to the bottom of this page.
+
 A just born baby
 ```python
 print('crys')
@@ -118,9 +120,9 @@ print(friends[0]) #brings out the 0th indexing value from the list of friends
 friends.append('Ram')
 ```
 
-You reached this far. If you are intrested on learning more [Click Here](comprehensive)
+You reached this far. If you are intrested on learning more [***Click Here***](comprehensive)
 
 ps. It might be bit hard to follow on just keep practicing youself on random stuff and you will get better.
 
 few places to practice stuff
-[HackerRank](https://www.hackerrank.com/access-account/) [CodeChef](https://www.codechef.com/login)
+[HackerRank](https://www.hackerrank.com/access-account/) | [CodeChef](https://www.codechef.com/login)
